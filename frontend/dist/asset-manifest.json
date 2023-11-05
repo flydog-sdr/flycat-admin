@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2de8eb72.css",
-    "main.js": "/static/js/main.59086f14.js",
+    "main.js": "/static/js/main.bbc69e6d.js",
     "static/media/gears-solid.svg": "/static/media/gears-solid.e2b8beae73e09bd8c976dd629cf5c22a.svg",
     "static/media/tower-broadcast-solid.svg": "/static/media/tower-broadcast-solid.961318039bfaf3d559487014b65594f1.svg",
     "static/media/microchip-solid.svg": "/static/media/microchip-solid.f44c1be2daf99dbc4e71086bb7c05d98.svg",
@@ -14,6 +14,6 @@
   },
   "entrypoints": [
     "static/css/main.2de8eb72.css",
-    "static/js/main.59086f14.js"
+    "static/js/main.bbc69e6d.js"
   ]
 }

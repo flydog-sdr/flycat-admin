@@ -11,7 +11,7 @@ const generateAntenna = ({
 
     for (let i = start-1; i < end; i++) {
         array.push({
-            name: `RF-IN${i+1}`,
+            name: `RF-IN${i}`,
             value: i.toString(),
         });
     }

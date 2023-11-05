@@ -21,23 +21,25 @@ export default class Navbar extends Component<NavbarProps> {
                             {title}
                         </a>
                     </div>
-                    <div className="w-1/2 pr-2">
-                        <div className="flex relative float-right">
-                            <div className="relative text-sm">
-                                <button onClick={help}>
-                                    <img
-                                        className="inline-block m-1"
-                                        alt="?"
-                                        width={15}
-                                        src={QuestionIcon}
-                                    />
-                                    <span className="hidden md:inline-block">
-                                        Help
-                                    </span>
-                                </button>
+                    {help && (
+                        <div className="w-1/2 pr-2">
+                            <div className="flex relative float-right">
+                                <div className="relative text-sm">
+                                    <button onClick={help}>
+                                        <img
+                                            className="inline-block m-1"
+                                            alt="?"
+                                            width={15}
+                                            src={QuestionIcon}
+                                        />
+                                        <span className="hidden md:inline-block">
+                                            Help
+                                        </span>
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    )}
                 </div>
             </nav>
         );
