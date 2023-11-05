@@ -1,2 +1,3 @@
-# flydog-admin
-👨‍💼 Web-based maintenance of FlyDog SDR.
+# flycat-admin
+
+👨‍💼 Web gain & notch filter controller of FlyCat SDR.

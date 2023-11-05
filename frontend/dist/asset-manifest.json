@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2de8eb72.css",
+    "main.js": "/static/js/main.59086f14.js",
+    "static/media/gears-solid.svg": "/static/media/gears-solid.e2b8beae73e09bd8c976dd629cf5c22a.svg",
+    "static/media/tower-broadcast-solid.svg": "/static/media/tower-broadcast-solid.961318039bfaf3d559487014b65594f1.svg",
+    "static/media/microchip-solid.svg": "/static/media/microchip-solid.f44c1be2daf99dbc4e71086bb7c05d98.svg",
+    "static/media/memory-solid.svg": "/static/media/memory-solid.0b232811422362ab73dd9874b19d29bc.svg",
+    "static/media/arrow-up-right-dots-solid.svg": "/static/media/arrow-up-right-dots-solid.27198703b5466e66686b70cce9fda283.svg",
+    "static/media/circle-question-solid.svg": "/static/media/circle-question-solid.5b4986ffbf285c2c68a784b1127b0f1a.svg",
+    "static/media/square-caret-right-solid.svg": "/static/media/square-caret-right-solid.d09f3f73eee926f967e945318157c502.svg",
+    "index.html": "/index.html",
+    "static/media/clock-solid.svg": "/static/media/clock-solid.983d109ad1b036d87a0fd9e6690e0546.svg"
+  },
+  "entrypoints": [
+    "static/css/main.2de8eb72.css",
+    "static/js/main.59086f14.js"
+  ]
+}
