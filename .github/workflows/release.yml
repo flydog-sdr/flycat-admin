@@ -30,7 +30,7 @@ jobs:
             - name: Set tag and release names
               id: set_release
               run: |
-                  tag_name="Release_$(cat VERSION)-$(git rev-parse --short HEAD)"
+                  tag_name="Release_$(git rev-parse --short HEAD)"
                   echo "::set-output name=tag_name::$tag_name"
 
             - name: Build frontend dist
@@ -87,4 +87,4 @@ jobs:
                   file_glob: true
                   file: build/release/*
                   body: |
-                      This is the auto-build release for Observer.
+                      This is the auto-build release for flycat-admin.
