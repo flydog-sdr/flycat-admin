@@ -87,4 +87,4 @@ jobs:
                   file_glob: true
                   file: build/release/*
                   body: |
-                      This is the auto-build release for Observer.
+                      This is the auto-build release for flycat-admin.
