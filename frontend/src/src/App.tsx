@@ -64,14 +64,14 @@ export default class App extends Component<{}, State> {
                 {
                     id: "controller->filter",
                     title: "Notch Filter",
-                    value: "Off",
+                    value: "OFF",
                     icon: require("./assets/square-caret-right-solid.svg")
                         .default,
                     backgroundColor: "bg-lime-600",
                 },
                 {
                     id: "controller->antenna",
-                    title: "Antenna Selection",
+                    title: "Antenna NO.",
                     value: "0",
                     unit: "#",
                     icon: require("./assets/tower-broadcast-solid.svg").default,
@@ -103,11 +103,11 @@ export default class App extends Component<{}, State> {
                     label: "Notch Filter",
                     options: [
                         {
-                            name: "Off",
+                            name: "OFF",
                             value: "0",
                         },
                         {
-                            name: "On",
+                            name: "ON",
                             value: "1",
                         },
                     ],
@@ -239,7 +239,7 @@ export default class App extends Component<{}, State> {
                         value = value.toFixed(2);
                         break;
                     case "controller->filter":
-                        value = value === 0 ? "Off" : "On";
+                        value = value === 0 ? "OFF" : "ON";
                         break;
                     case "uptime":
                         value = Math.floor(value / 86400);
@@ -264,6 +264,11 @@ export default class App extends Component<{}, State> {
             timer: 3000,
         });
     };
+
+    componentDidMount(): void {
+        const { title } = AppConfig.site_settings;
+        document.title = title;
+    }
 
     render() {
         const { api_settings, site_settings } = AppConfig;

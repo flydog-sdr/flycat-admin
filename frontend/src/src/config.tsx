@@ -1,11 +1,11 @@
 const AppConfig = {
     site_settings: {
-        title: "FlyCat Admin",
+        title: "FlyCat SDR",
     },
     api_settings: {
         version: "v1",
         production: true,
-        development: "http://127.0.0.1:3708",
+        development: "http://orangepione:3708",
     },
 };
 
