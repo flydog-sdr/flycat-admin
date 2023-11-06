@@ -280,7 +280,7 @@ export default class App extends Component<{}, State> {
                 <Container>
                     <ItemContainer>
                         <Polling
-                            interval={1000}
+                            interval={3000}
                             onFetch={this.onFetch}
                             onError={this.onError}
                             onSuccess={this.onSuccess}
